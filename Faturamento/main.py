@@ -30,7 +30,7 @@ print(ticket_medio)
 
 outlook = win32.Dispatch("outlook,application")
 mail = outlook.CreateItem(0)
-mail.To = "renato.soc@gmail.com"
+mail.To = "seuemail@gmail.com"
 mail.Subject = "Testes de Python"
 mail.HTMLBody = f'''
 <p>Prezados,</p>
